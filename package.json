@@ -1,6 +1,6 @@
 {
   "name": "react-google-places-suggest",
-  "version": "3.11.0",
+  "version": "3.12.1",
   "author": {
     "name": "Cédric Delpoux",
     "email": "cedric.delpoux@gmail.com"
@@ -36,7 +36,7 @@
     "deploy": "gh-pages -d demo/dist",
     "lint": "eslint src demo/src",
     "precommit": "lint-staged",
-    "prepublish": "yarn build",
+    "prepublishOnly": "yarn build",
     "start": "nwb serve-react-demo --port 1190",
     "test": "jest --config jest.config.json --colors --no-cache",
     "test:watch": "yarn test -- --watch"
